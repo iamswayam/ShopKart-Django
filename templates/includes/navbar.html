@@ -74,7 +74,7 @@
                         <div class="widget-header">
                             <small class="title text-muted"><h7>Hello {{ user.first_name | capfirst }}</h7></small>
                             <div> 
-                                <a href="#">Dashboard</a> <span class="dark-transp"> | </span>
+                                <a href="{% url 'dashboard' %}">Dashboard</a> <span class="dark-transp"> | </span>
                                 <a href="{% url 'logout' %}">Signout</a>
                             </div>
                         </div>
